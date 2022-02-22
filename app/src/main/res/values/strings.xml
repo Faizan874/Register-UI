@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="like_text">Add</string>
+    <string name="home_text">Home</string>
+    <string name="search_bar">Search</string>
+    <string name="shop_text">shop</string>
+</resources>

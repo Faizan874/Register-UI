@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/body"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:layout_marginTop="80dp"
+    android:src="@drawable/alfa"
+    />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+        android:drawablePadding="10dp"
+        android:layout_margin="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableLeft="@drawable/ic_baseline_lock_open_24"
+        android:drawablePadding="10dp"
+        android:layout_margin="15dp"
+        />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Forggoten Password"
+        android:layout_marginLeft="250dp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Using Alfa?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now!"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/newbar"
+        android:layout_marginTop="80dp"
+        />
+</LinearLayout>
